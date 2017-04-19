@@ -11,7 +11,7 @@ main-container {
 
 slider {
   border: 2px solid #fff;
-  cursor: pointer;
+  cursor: none;
   display: block;
   height: 30px;
   margin-top: 6px;
