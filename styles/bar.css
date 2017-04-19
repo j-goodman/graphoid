@@ -4,29 +4,53 @@ main-container {
 }
 
 .dynamic-bar {
-  border: 2px solid #4b4;
-  height: 400px;
-  width: 500px;
+  border: 2px solid #fff;
+  height: 500px;
+  width: 600px;
 }
 
 slider {
-  border: 2px solid #4b4;
+  border: 2px solid #fff;
+  cursor: pointer;
   display: block;
-  height: 20px;
+  height: 30px;
   margin-top: 6px;
-  width: 500px;
+  width: 600px;
+}
+
+knob {
+  background: #fff;
+  display: block;
+  height: 30px;
+  width: 0px;
 }
 
 sidebar {
-  border: 2px solid #4b4;
+  border: 2px solid #fff;
   display: flex;
-  height: 400px;
+  height: 500px;
   justify-content: center;
   margin-left: 6px;
-  width: 200px;
+  width: 300px;
 }
 
 input {
+  display: none;
+}
+
+label {
   background: #000;
-  width: 100px;
+  border: 2px solid #fff;
+  margin-top: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  transition: background .2s, color .2s;
+  width: 140px;
+}
+
+label:hover {
+  color: #000;
+  cursor: pointer;
+  background: #fff;
 }

@@ -9,11 +9,12 @@
   <main-container>
     <dynamic-bar>
       <canvas class='dynamic-bar' id='dynamic-bar'></canvas>
-      <slider>
-        <knob></knob>
+      <slider id='z-slider'>
+        <knob id='z-slider-knob'></knob>
       </slider>
     </dynamic-bar>
     <sidebar>
+      <label for='dynamic-bar-file-input'>Upload CSV</label>
       <input type='file' id='dynamic-bar-file-input'>
     </sidebar>
   </main-container>
