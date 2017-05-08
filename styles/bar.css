@@ -26,12 +26,21 @@ knob {
 }
 
 sidebar {
+  align-items: center;
   border: 2px solid #fff;
   display: flex;
+  flex-direction: column;
   height: 500px;
-  justify-content: center;
   margin-left: 6px;
   width: 300px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #06f;
 }
 
 input {
